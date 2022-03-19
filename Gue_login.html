@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="Lstyle.css">
+        <title>Login | Faculty Self Assessment</title>
+        <script src="gue_login_validation.js"></script>
+    </head>
+    <body style="background-color:black;color:white">
+        <p style="font-weight:bold;font-size:30px;padding:15px">
+          <img src="bmsce-logo.png" alt="college_logo" height="40px" style="margin-left:80px;">
+          FACULTY SELF ASSESSMENT
+        </p>
+        <div id="tool_bar" word-spacing: 500px;>
+            <h4>&nbsp<a href="home page.html">Home</a> <a href="Fac_login.html">Login</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="moreinfo.html">More-Info</a></h4>
+        </div>
+
+        <img src="exam2.jpg" alt="image" width="1263px" height="1100px" style="opacity:0.4">
+        <div class="text-block" >
+            <center style="font-size:40px;font-weight:bold">SIGN UP AS GUEST</center>
+            <br>
+            <p>This self-assessment for online teaching will allow you to evaluate and reflect upon your competencies in key areas of online teaching and provide a baseline of your pedagogical, technical, and administrative skills</p>
+            <ul>
+                <li>The information you provide is used to send you the results of the self-assessment, and will be stored on the server</li>
+                <li>There are eighteen questions distributed in three categories within the assessment. The questions are based upon BMSCE's Faculty Competencies for Online Teaching All three categories must be completed in full</li>
+                <li>For each question, please select the response that best represents you</li>
+                <li>Once you submit all of your answers under a particular category you will be taken to another category</li>
+                <li>A copy of the report will be emailed to the address you provide when you begin</li>
+                <li>Depending on the vacancy you will be contacted</li>
+            </ul>
+                <br>
+                <div class="login2" style="text-align:left;">
+                <form id="login2" method ="POST" action="questions1.html">
+                  <label><b>Name</b></label>
+                      <input type="text" name="Name" id="uname" placeholder="Abc Xyz"  pattern="[a-zA-Z][a-zA-Z ]{2,}" required>
+                      <br><br>
+                  <label><b>Email</b></label>
+                      <input type="email" name="Email id" id="uemail" placeholder="xyz@abc.com" required>
+                      <br><br>
+                  <label><b>Phone Number</b></label>
+                      <input type="tel" name="phnumber" id="uphno" placeholder="1234567890"  pattern="[0-9]{2,}" required>
+                      <br><br>
+                  <label><b>About You</b></label>
+                      <textarea type="text" name="About" id="uabt" placeholder="Small Description" required></textarea>
+                      <br><br>
+                  <input type="submit" value="Sign Up" name="Login" id="sup">
+                  <br>
+
+                </form>
+              </div>
+      </div>
+      <div id="bottom" style="text-align:center;padding:10px;background-color:#161616">
+        <p><a href="https://bmsce.ac.in/">bmsce.ac.in</a></p>
+        <p >
+          <a href="https://www.facebook.com/bmsce.official"><img src="facebook-logo.png" alt="#facebook" height="50px" style="border:2px solid white"></a>
+          <a href="https://twitter.com/bmsconnectplus?lang=en"><img src="twitter-logo.png" alt="#twitter" height="50px" style="border:2px solid white">
+          <a href="https://www.linkedin.com/company/bmsce-official/"><img src="linkedin-logo.png" alt="#linkedin" height="50px" style="border:2px solid white"></a>
+        </p>
+        <p>©2020 by Faculty Self Assessment<br>Proudly created by<br>Harshil<br>Hemang</p>
+      </div>
+    </body>
+  </html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="Lstyle.css">
+      <title>Login | Faculty Self Assessment</title>
+      <script src="fac_login_validation.js"></script>
+    </head>
+    <body style="background-color:black;color:white">
+      <p style="font-weight:bold;font-size:30px;padding:15px">
+        <img src="bmsce-logo.png" alt="college_logo" height="40px" style="margin-left:80px;">
+        FACULTY SELF ASSESSMENT
+      </p>
+      <div id="tool_bar" word-spacing: 500px>
+          <h4>&nbsp<a href="home page.html">Home</a> <a href="Fac_login.html">Login</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="moreinfo.html">More-Info</a></h4>
+      </div>
+
+      <img src="lib2.jpg" alt="image" align="left" width="650px" height="1148px">
+      <div style="text-align:center;margin-left:43em;margin-right:4em;margin-top:7em">
+          <center style="font-size:40px;font-weight:bold">LOGIN AS FACULTY</center>
+          <hr>
+          <center>This self-assessment for online teaching will allow you to evaluate and reflect upon your competencies in key areas of online teaching and provide a baseline of your pedagogical, technical, and administrative skills</center>
+          <ul style="text-align:center;padding:20px">
+            <li>The information you provide is used solely to send you the results of the self-assessment, and is not stored on the server
+            <li>There are eighteen questions distributed in three categories within the assessment. The questions are based upon BMSCE's Faculty Competencies for Online Teaching All three categories must be completed in full</li>
+            <li>For each question, please select the response that best represents you</li>
+            <li>Once you submit all of your answers under a particular category you will be taken to another category</li>
+            <li>A copy of the report will be emailed to the address you provide when you begin</li>
+          </ul>
+      </div>
+      <div class="login1">
+      <form id="login1" method ="POST" action="questions1.html">
+        <label><b>Name</b></label>
+            <input type="text" name="Name" id="uname" placeholder="Abc Xyz" pattern="[a-zA-Z][a-zA-Z ]{2,}" required>
+            <br><br>
+        <label><b>Email</b></label>
+            <input type="email" name="Email id" id="uemail" placeholder="xyz.cs19@bmsce.ac.in" required>
+            <br><br>
+        <label><b>Password</b></label>
+            <input type="password" name="password" id="upass" placeholder="******"  required>
+            <br><br>
+        <input type="submit" value="Log In" name="Login" id="log">
+        <a href="Gue_login.html"><input type="button" name="Login" id="sup" value="Sign Up"></a>
+        <!--
+        <a href="questions1.html"><input type="button" name="Login" id="log" value="Log In"></a>
+        <a href="Gue_login.html"><input type="button" name="Login" id="sup" value="Sign Up"></a>
+      -->
+        <br>
+        Are you an admin? <a href="Adm_login.html">Click here</a>
+      </form>
+      </div>
+      <hr><hr><hr><hr>
+
+      <div id="bottom" style="text-align:center;padding:10px;background-color:#161616">
+        <p><a href="https://bmsce.ac.in/">bmsce.ac.in</a></p>
+        <p>
+          <a href="https://www.facebook.com/bmsce.official"><img src="facebook-logo.png" alt="#facebook" height="50px" style="border:2px solid white"></a>
+          <a href="https://twitter.com/bmsconnectplus?lang=en"><img src="twitter-logo.png" alt="#twitter" height="50px" style="border:2px solid white">
+          <a href="https://www.linkedin.com/company/bmsce-official/"><img src="linkedin-logo.png" alt="#linkedin" height="50px" style="border:2px solid white"></a>
+        </p>
+        <p>©2020 by Faculty Self Assessment<br>Proudly created by<br>Harshil<br>Hemang</p>
+      </div>
+    </body>
+</html>

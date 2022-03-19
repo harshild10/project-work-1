@@ -1,0 +1,173 @@
+#tool_bar{
+  word-spacing: 20px;
+  background-color:#222121;
+  padding: 5px;
+}
+a:link {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+color: white;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:hover {
+color: royalblue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:active {
+color: pink;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.login1{
+  height:420px;
+  width:490px;
+  overflow: hidden;
+  margin: auto;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-right: 80px;
+  background: #161515;
+  opacity: 0.8;
+  border-radius:50px;
+}
+
+.login2{
+  height:510px;
+  width:490px;
+  overflow: hidden;
+  margin: auto;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-right: 80px;
+  background: #161515;
+  opacity: 0.8;
+  border-radius:50px;
+}
+label{
+
+  color: #F0ECEC;
+  font-size: 17px;
+}
+#uname{
+    width: 300px;
+    height: 20px;
+    border-radius: 3px;
+    padding: 18px;
+}
+#uemail{
+  width: 300px;
+  height: 30px;
+  padding: 18px;
+}
+#upass{
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 18px;
+}
+#log{
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    color: black;
+    margin: 15px;
+  }
+#log:hover{
+  color:pink;
+  background-color: royalblue;
+
+}
+
+
+  #uphno{
+      width: 300px;
+      height: 30px;
+      border-radius: 3px;
+      padding: 18px;
+    }
+  #sup{
+      font-weight: bold;
+      width: 100px;
+      height: 30px;
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 2px;
+      color: black;
+    }
+    #sup:hover{
+      color:pink;
+      background-color: royalblue;
+
+    }
+
+    #uabt{
+        word-wrap: break-word;
+        word-break: break-all;
+        width: 300px;
+        height: 100px;
+        border-radius: 3px;
+        padding: 18px;
+    }
+
+  span{
+    color:white;
+
+  }
+
+
+  .text-block {
+    text-align:center;
+    position: absolute;
+    top:40%;
+    right: 80px;
+    padding:10px;
+    margin-left:17em;
+    margin-right:17em;
+  }
+
+  table{
+        margin-left: 150px;
+        background-color:#282525;
+        border: 3px solid black;
+        border-collapse:collapse;
+        }
+  td,th{
+        padding:10px;
+        column-width: 130px;
+        border: 2px solid black;
+      }
+
+.questions{
+        width:900px;
+        height:1220px;
+        overflow: hidden;
+        margin: auto;
+        padding-left: 80px;
+        padding-top: 50px;
+        padding-right: 80px;
+        background: #161515;
+        opacity: 0.8;
+        border-radius:50px;
+      }
+
+      .question-block {
+        text-align:center;
+        position: absolute;
+        top:40%;
+        right: 1px;
+        padding:10px;
+        margin-left:17em;
+        margin-right:17em;
+      }

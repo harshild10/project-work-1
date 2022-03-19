@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact | Faculty Self Assessment</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="style2.css">
+<style>
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=tel], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #161616;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+<script src="contact_validation.js"></script>
+</head>
+
+<body style="background-color:black;color:white">
+  <p style="font-weight:bold;font-size:30px;padding:15px">
+    <img src="bmsce-logo.png" alt="college_logo" height="40px" style="margin-left:80px;">
+    FACULTY SELF ASSESSMENT
+  </p>
+  <div id="tool_bar" word-spacing: 500px;>
+      <h4>&nbsp<a href="home page.html">Home</a> <a href="Fac_login.html">Login</a> <a href="about.html">About</a> <a href="contact.html">Contact</a> <a href="moreinfo.html">More-Info</a></h4>
+  </div>
+<div class="container">
+  <div style="text-align:center">
+    <h2 style="font-size:60px">Contact Us</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <hr>
+      <p>BMSCE Alumni can be found all over the world. BMSCE takes proud in educating students since 1946 in various fields of Engineering and continues to provide world class education in the coming years with more emphasis on research and development</p>
+      <br>
+      <p style="font-size:23px">info@bmsce.ac.in<br><br>Tel: +91-80-26622130-35<br><br>Fax: +91-80-26614357</p>
+      <hr><hr><hr><hr>
+      <a href="https://www.google.com/maps/place/BMS+College+of+Engineering/@12.9410122,77.5633371,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae158b11e34d2f:0x5f4adbdbab8bd80f!8m2!3d12.9410122!4d77.5655258"><img src="map.png" alt="Map" width="100%"></a>
+    </div>
+    <div class="column">
+
+      <form method="POST">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="Your Name.." pattern="[a-zA-Z][a-zA-Z ]{2,}" required>
+        <label for="fmail">Email</label>
+        <input type="email" id="fmail" name="email" placeholder="Your Mail Id" required>
+        <label for="ph">Phone</label>
+        <input type="tel" id="ph" name="Phone" placeholder="Your Phone Number " pattern="[0-9]{2,}" required>
+        <label for="Address">Address</label>
+        <textarea type="text" name="Address" id="Address" placeholder="Complete Address" required></textarea>
+        <label for="states">State</label>
+        <select name="state" required>
+          <option value="">Select a State</option>
+          <option value="Andhra Pradesh">Andhra Pradesh</option>
+          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+          <option value="Assam">Assam</option>
+          <option value="Bihar">Bihar</option>
+          <option value="Chattisgarh">Chattisgarh</option>
+          <option value="Goa">Goa</option>
+          <option value="Gujrat">Gujrat</option>
+          <option value="Haryana">Haryana</option>
+          <option value="Himanchal Pradesh">Himanchal Pradesh</option>
+          <option value="Jharkhand">Jharkhand</option>
+          <option value="Karnataka">Karnataka</option>
+          <option value="Kerala">Kerala</option>
+          <option value="Madhya Pradesh">Madhya Pradesh</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Manipur">Manipur</option>
+          <option value="Meghalaya">Meghalaya</option>
+          <option value="Mizoram">Mizoram</option>
+          <option value="Nagaland">Nagaland</option>
+          <option value="Odisha">Odisha</option>
+          <option value="Punjab">Punjab</option>
+          <option value="Rajasthan">Rajasthan</option>
+          <option value="Sikkim">Sikkim</option>
+          <option value="Tamil Nadu">Tamil Nadu</option>
+          <option value="Telangana">Telangana</option>
+          <option value="Tripura">Tripura</option>
+          <option value="Uttarakhand">Uttarakhand</option>
+          <option value="Uttar Pradesh">Uttar Pradesh</option>
+          <option value="West Bengal">West Bengal</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="In short" style="height:50px" required></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<div id="bottom" style="text-align:center;padding:10px">
+  <a href="https://bmsce.ac.in/">bmsce.ac.in</a></p>
+  <p >
+    <a href="https://www.facebook.com/bmsce.official"><img src="facebook-logo.png" alt="#facebook" height="50px" style="border:2px solid white"></a>
+    <a href="https://twitter.com/bmsconnectplus?lang=en"><img src="twitter-logo.png" alt="#twitter" height="50px" style="border:2px solid white">
+    <a href="https://www.linkedin.com/company/bmsce-official/"><img src="linkedin-logo.png" alt="#linkedin" height="50px" style="border:2px solid white"></a>
+  </p>
+  <p>©2020 by Faculty Self Assessment<br>Proudly created by<br>Harshil<br>Hemang</p>
+</div>
+</body>
+</html>
